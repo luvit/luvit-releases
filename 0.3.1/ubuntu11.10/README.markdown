@@ -4,7 +4,9 @@ Binaries come in both `i686` and `x86_64` for Ubuntu 11.10.  Within each there i
 
 Also these files are mirrored at the luvit.io website prefixed with `/dist` instead of `luvit-releases`.  For example, to wget a luvit binary for the latest luvit release for the latest ubuntu version, use:
 
-    wget http://luvit.io/dist/latest/ubuntu-latest/`uname -m`/luvit-bundled/luvit
+```bash
+wget http://luvit.io/dist/latest/ubuntu-latest/`uname -m`/luvit-bundled/luvit
+```
 
 The `uname -m` will be `i686` or `x86_64` depending on if your machine is 64 or 32 bit.
 
